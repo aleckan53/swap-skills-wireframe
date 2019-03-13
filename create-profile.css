@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+} 
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+label {
+  font-size: 1rem;
+}
+
+
+nav {
+  background: rgba(169, 169, 169, 0.5);
+  width: 100%;
+  height: 60px;
+}
+
+main > * {
+  width: 100%;
+}
+
+section {
+  background: rgba(169,169,169,0.1)
+}
+
+.avatar-container {
+}
+
+.avatar {
+  width: 100px;
+}
+
+section:nth-child(2){
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+a {
+  align-self: center;
+}
